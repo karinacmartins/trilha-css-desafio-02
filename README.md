@@ -4,7 +4,7 @@ Este projeto é uma prática de CSS para o desafio 02 da Trilha de CSS da DIO, o
 
 ## Descrição
 
-O projeto recria uma página de vídeo do YouTube com base no layout especificado no Figma. A página inclui um vídeo principal incorporado, uma sidebar com miniaturas de vídeos recomendados e uma seção de informações sobre o canal. Utiliza HTML e CSS para a estruturação e estilização da página.
+O projeto recria uma página de vídeo do YouTube com base no layout especificado no Figma. A página inclui um vídeo principal é exibido como uma imagem, uma sidebar com miniaturas de vídeos recomendados e uma seção de informações sobre o canal. Utiliza HTML e CSS para a estruturação e estilização da página.
 
 ## Layout Figma
 
@@ -14,10 +14,9 @@ O layout de referência para o projeto está disponível no Figma:
 
 ## Funcionalidades
 
-- **Vídeo Principal**: Exibido usando um `<iframe>` para incorporar um vídeo.
+- **Vídeo Principal**: Exibido como uma imagem.
 - **Sidebar**: Contém miniaturas de vídeos recomendados.
 - **Informações do Canal**: Inclui imagem de perfil, nome do canal, número de inscritos e ações do vídeo.
-- **Layout Responsivo**: Estilizado para funcionar bem em diferentes tamanhos de tela.
 - **Fonte Roboto**: Usada para o texto, obtida do Google Fonts.
 
 ## Tecnologias
