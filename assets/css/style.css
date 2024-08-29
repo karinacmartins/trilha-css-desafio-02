@@ -1,0 +1,185 @@
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-video {
+    flex: 3; 
+    margin-right: 10px; 
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 0; 
+
+}
+
+.sidebar-video {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sidebar-video img {
+    width: 160px;
+    height: 90px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.sidebar-video h3 {
+    font-size: 16px;
+    margin: 0;
+    width: 200px;
+}
+
+.sidebar-video p {
+    font-size: 12px;
+    color: #606060;
+    margin: 4px 0;
+}
+
+/* Estilo do Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.youtube-logo {
+    height: 24px;
+    margin-right: 20px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.header-icons img {
+    height: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* Estilo do Main Content */
+.main-video img {
+    width: 952px;
+    height: 537px;
+    border-radius: 4px;
+    background-color: #000;
+    padding-top: 0;
+}
+
+.video-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.channel-pic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.channel-details {
+    margin: 10px;
+    line-height: 1.2;
+}
+.channel-details p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.subscribe-btn {
+    padding: 8px 16px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+
+.video-actions {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px; 
+}
+
+.video-actions div {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.video-actions img {
+    width: 24px;
+    height: 24px;
+    margin: 20px;
+}
+
+.video-actions span {
+    font-size: 14px;
+}
+
+
+.video-stats {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.video-stats p {
+    font-size: 14px;
+    color: #606060;
+}
+footer {
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: #606060;
+}
